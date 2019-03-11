@@ -1,0 +1,55 @@
+a {
+color: black;
+text-decoration: none;
+}
+a:hover
+{
+  color: pink;
+  text-decoration:none;
+  cursor:pointer;
+}
+.logo {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 50%;
+    transform:translateX(-50%);
+}
+.logo .top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.logo:hover .top {
+    display: inline;
+}
+video {
+  max-width: 100%;
+  height: auto;
+}
+p {
+  font-family: Helvetica;
+  font-weight:bold;
+  text-align: center;
+  word-spacing: 50px;
+}
+h1 {
+  max-width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  margin-top: 30px;
+  text-align: center;
+  word-spacing: 50px;
+}
+h2 {
+  max-width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  margin-top: 30px;
+  text-align: center;
+  word-spacing: 0px;
+}
